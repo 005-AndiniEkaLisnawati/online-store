@@ -47,11 +47,8 @@ function Header({ cartCount, onOpenCart }) {
             <div className="absolute inset-0 rounded-full bg-primary/20 opacity-0 blur-md transition-opacity group-hover:opacity-40" />
           </button>
 
-          {/* User Profile / Menu (Opsional Tambahan) */}
           <div className="hidden sm:block h-8 w-px bg-gray-200" />
-          <Button variant="ghost" size="sm" className="hidden sm:flex font-bold">
-            Masuk
-          </Button>
+       
         </div>
       </div>
     </nav>

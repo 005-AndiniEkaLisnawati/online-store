@@ -63,7 +63,8 @@ function App() {
         closeCart={() => setIsCartOpen(false)} 
         cartItems={cart} 
         updateQty={updateQty} 
-        removeItem={removeItem} 
+        removeItem={removeItem}
+        clearCart={() => setCart([])}
       />
 
       {/* Hero Section */}
