@@ -4,6 +4,7 @@ import ProductList from './components/ProductList';
 import CartSidebar from './components/CartSidebar';
 import { Loader2, Sparkles } from 'lucide-react';
 
+
 function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
